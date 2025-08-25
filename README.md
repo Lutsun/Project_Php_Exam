@@ -85,6 +85,3 @@ Projet\_php/
 👤 Développé par **[Serge Da Sylva](https://github.com/Lutsun)**
 💡 Projet académique et professionnel autour de la gestion d’inventaire moderne.
  
-
-Veux-tu que je t’ajoute aussi un **aperçu visuel (screenshot ou mockup stylé)** de ton dashboard dans le README pour que ça soit encore plus pro ?
-```
