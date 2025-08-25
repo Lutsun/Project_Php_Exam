@@ -1,0 +1,128 @@
+/* Style pour l'impression des factures */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background: white;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.logo-stock {
+    color: rgb(0, 0, 0);
+}
+.logo-nova {
+    color: #6a00ff;
+}
+            
+.facture-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.facture-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.facture-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.facture-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.facture-title h2 {
+    color: #6a00ff;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.facture-title p {
+    color: #666;
+    font-style: italic;
+    margin: 0;
+}
+
+.facture-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.facture-client, .facture-details {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.facture-client h3, .facture-details h3 {
+    margin-top: 0;
+    color: #6a00ff;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.facture-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.facture-table th {
+    background: #6a00ff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.facture-table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.facture-total {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.facture-footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* Règles spécifiques pour l'impression */
+@media print {
+    body {
+        padding: 0;
+    }
+    .facture-container {
+        border: none;
+        padding: 0;
+    }
+    @page {
+        size: A4;
+        margin: 10mm;
+    }
+    .no-print {
+        display: none !important;
+    }
+}

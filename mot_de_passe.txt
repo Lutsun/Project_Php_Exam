@@ -1,0 +1,15 @@
+# Fichier des identifiants pour la connexion à Stock Nova
+
+[ADMIN] qui correspond à l'Admin Serge Da Sylva
+Login : Admin
+Mot de passe : password
+
+[UTILISATEUR] qui correspond au client Cheikh Lo
+Login : user1
+Mot de passe : password 
+
+Information à Savoir :
+- N'oubliez pas de valider le panier dans la page liste des produits avant de 
+voir les commandes en cours 
+- Concernant les livraisons c'est à l'Admin de les valider depuis son espace et 
+il dispose de toutes les informations et fonctionnalités de Stock Nova.
